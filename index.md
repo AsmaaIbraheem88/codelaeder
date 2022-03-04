@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,7 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home - codeleader</title>
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--    <link href="css/bootstrap.css" rel="stylesheet">-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
     <!-- DL Menu CSS -->
     <link href="js/dl-menu/component.css" rel="stylesheet">
     <!--SLICK SLIDER CSS-->
@@ -25,7 +31,7 @@
     <!-- Typography CSS -->
     <link href="css/typography.css" rel="stylesheet">
     <!-- Custom Main StyleSheet CSS -->
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!-- Color CSS -->
     <link href="css/color.css" rel="stylesheet">
     <!-- Responsive CSS -->
@@ -49,22 +55,20 @@
 
         <!--Header Wrap Start-->
 
-        <header class="iq_header_1">
+        <header class="iq_header_1" id="header">
 
-            <!--            <div class="container">-->
-            <!--Logo Wrap Start-->
             <div class="iq_logo">
-                <a href="#"><img src="images/001.png" alt="Iqoniq Themes" width="150px" height="150px"></a>
+                <a href="#">
+                    <img src="images/001.png" alt="Iqoniq Themes" width="110px" height="110px">
+                </a>
             </div>
 
-            <!--Logo Wrap Start-->
-            <!--Top Strip Wrap Start-->
             <div class="iq_ui_element">
-                <!--Top Strip Wrap Start-->
+
                 <div class="iq_top_strip">
                     <div class="iq_top_contact pull-left">
-                        <a href="#"> Call us : +2001030115464</a>
-                        <!--                        <a href="#"> Email : codeleader2020@gmail.com</a>-->
+                        <a href="#"> Call us: +2001030115464 </a>
+
 
                     </div>
 
@@ -72,126 +76,101 @@
 
 
                 </div>
-                <!--Top Strip Wrap End-->
-                <!--Navigation wrap Start-->
-                <div class="navigation-wrapper pull-left">
-                    <div class="navigation pull-left">
-                        <ul>
-                            <li class="active link"><a href="index.html">Home</a></li>
-                            <li class=" link"><a href="#about_us">About Us</a></li>
-                            <li class=" link"><a href="staff.html">Staff</a></li>
-                            <li class="link"><a href="our-courses-for-kids.html">Courses</a> </li>
+            </div>
 
-                            <li class=" link"><a href="gallery.html">Gallery</a></li>
-                            <li class=" link"><a href="events.html">Events</a></li>
+            <nav class="navbar  navbar-expand-md navbar-light " style="z-index:9999;background-color: #fff;">
 
-                        </ul>
-                    </div>
-                    <!--DL Menu Start-->
-                    <div id="mg-responsive-navigation" class="dl-menuwrapper">
-                        <button class="dl-trigger">Open Menu</button>
+                <div class="container">
 
-                        <ul class="dl-menu">
+                    <nav class="navbar navbar-light ">
+                        <a class="navbar-brand" href="#">
+                            <span> CODElaeder </span>
+                        </a>
+                    </nav>
 
-                            <li class="menu-item mg-parent-menu">
-                                <a href="index.html">home</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                        </span>
+                    </button>
+
+                    <div class=" mynav collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active ">
+                                <a class="nav-link" href="index.html"> Home </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about_us"> About Us </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="staff.html"> Staff </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="our-courses-for-kids.html"> Courses </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html"> Gallery </a>
+                                </ li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="events.html"> Events </a>
                             </li>
 
 
-                            <li><a href="index.html#about-us">About Us</a></li>
-
-                            <li><a href="staff.html">Staff</a></li>
-                            <li><a href="our-courses-for-kids.html">Courses</a> </li>
-
-
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="events.html">Events</a></li>
 
                         </ul>
+
                     </div>
-                    <!--DL Menu END-->
 
                 </div>
-                <!--Navigation wrap End-->
-            </div>
-            <!--Top Strip Wrap End-->
-            <!--            </div>-->
-
+                </ nav>
 
 
         </header>
+
+
+
+
+
         <!--Header Wrap End-->
-
-
-        <!--Banner Wrap Start-->
-
-        <!--
-        <div class="wav">
-            <img src="images/slider012.jpg" width="100%" height="600px;">
-            <div class="wave wave1"></div>
-            <div class="wave wave2"></div>
-            <div class="wave wave3"></div>
-            <div class="wave wave4"></div>
-        </div>-->
-
 
         <!--Banner Wrap Start-->
         <div class="iq_banner">
-            <ul class="slider">
-                <li class="slide">
-                    <!--Banner Thumb START-->
-                    <a href="#" data-rel="prettyphoto[]" target="_blank">
-                        <img src="images/bg-000.jpg" alt="Image here">
-                        <div class="iq-caption-wrapper text-left">
-                            <div class="iq_banner_caption container">
-                                <div class="iq-caption">
-                                    <div class="iq-caption-title">The Best Learning Academy</div>
-                                    <div class="iq-caption-text">welcome to our Academy</div>
-                                    <div class="iq-caption-contant">Programming Training and Skills Development</div>
-                                    <div class="iq_link_1">Read More</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <!--Banner Thumb End-->
-                </li>
-                <li class="slide">
-                    <!--Banner Thumb START-->
-                    <a href="#" data-rel="prettyphoto[]" target="_blank">
-                        <img src="images/bg-001.jpg" alt="Image here">
-                        <div class="iq-caption-wrapper text-left">
-                            <div class="iq_banner_caption container">
-                                <div class="iq-caption">
-                                    <div class="iq-caption-title">The Best Learning Academy</div>
-                                    <div class="iq-caption-text">welcome to our Academy</div>
-                                    <div class="iq-caption-contant">Programming Training and Skills Development</div>
-                                    <div class="iq_link_1">Read More</div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                    <!--Banner Thumb End-->
-                </li>
 
-                <li class="slide">
-                    <!--Banner Thumb START-->
-                    <a href="#" data-rel="prettyphoto[]" target="_blank">
-                        <img src="images/bg-002.jpg" alt="Image here">
-                        <div class="iq-caption-wrapper text-left">
-                            <div class="iq_banner_caption container">
-                                <div class="iq-caption">
-                                    <div class="iq-caption-title">The Best Learning Academy</div>
-                                    <div class="iq-caption-text">welcome to our Academy</div>
-                                    <div class="iq-caption-contant">Programming Training and Skills Development</div>
-                                    <div class="iq_link_1">Read More</div>
-                                </div>
+
+
+
+
+            <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <!--
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+-->
+                </ol>
+                <div class="carousel-inner slider-1 ">
+
+
+                    <div class="carousel-item active">
+
+                        <img src="images/bg-000.jpg" class="d-block w-100 " alt="..." opacity=".6">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="iq-caption">
+                                <!--                                <div class="iq-caption-title">The Best Learning Academy</div>-->
+                                <div class="iq-caption-text">welcome to our Academy</div>
+                                <div class="iq-caption-contant">Programming Training and Skills Development</div>
+                                <div class="iq_link_1">Read More</div>
                             </div>
                         </div>
-                    </a>
-                    <!--Banner Thumb End-->
-                </li>
 
-            </ul>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
         </div>
         <!--Banner Wrap End-->
 
@@ -202,66 +181,68 @@
         <!--Iqoniq Content Start-->
         <div class="iq_content_wrap">
 
+
+
             <!--About Us START-->
-            <section class="about-us-section" id="about_us">
-                <div class="container-1">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6">
-                            <div class="text">
-                                <!--Heading Wrap Start-->
-                                <div class="iq_heading_1 text-left">
-                                    <h4>We Are <span>Professional</span></h4>
-                                </div>
-                                <!--Heading Wrap End-->
-                                <p> An administrative support team is available throughout the course to follow up all students.<br> </p>
-
-                                <p> We are always interested in providing complete content on scientific principles ,
-
-                                    interested in encouraging students to learn and motivating them in different ways to enjoy the course ,
-                                    care about continuous practical training during the course.<br> </p>
-
-                                <p> Our instructors are engineers, specialized in their respective fields ,
-                                    and certificate is issued to each student after completing the course.</p>
-
-
-
-
-                                <ul class="categries-list">
-
-
-
-                                    <li><a href="#">strong content</a></li>
-
-
-                                    <li><a href="#">Administrative support team</a></li>
-
-
-                                    <li><a href="#">encourage students</a></li>
-
-
-                                    <li><a href="#">continuous training</a></li>
-
-
-                                    <li><a href="#">Excellent team</a></li>
-
-
-                                    <li><a href="#">Accredited certification</a></li>
-
-                                </ul>
+            <section class="about-us-section container-fluid" id="about_us">
+                <!--                <div class="container">-->
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="text">
+                            <!--Heading Wrap Start-->
+                            <div class="iq_heading_1 text-left">
+                                <h4>We Are <span>Professional</span></h4>
                             </div>
+                            <!--Heading Wrap End-->
+                            <p class="text-left"> An administrative support team is available throughout the course to follow up all students.<br> </p>
+
+                            <p class="text-left"> We are always interested in providing complete content on scientific principles ,
+
+                                interested in encouraging students to learn and motivating them in different ways to enjoy the course ,
+                                care about continuous practical training during the course.<br> </p>
+
+                            <p class="text-left"> Our instructors are engineers, specialized in their respective fields ,
+                                and certificate is issued to each student after completing the course.</p>
+
+
+
+
+                            <ul class="categries-list">
+
+
+
+                                <li><a href="#">strong content</a></li>
+
+
+                                <li><a href="#">Administrative support team</a></li>
+
+
+                                <li><a href="#">encourage students</a></li>
+
+
+                                <li><a href="#">continuous training</a></li>
+
+
+                                <li><a href="#">Excellent team</a></li>
+
+
+                                <li><a href="#">Accredited certification</a></li>
+
+                            </ul>
                         </div>
+                    </div>
 
-                        <div class="col-md-6 col-sm-6">
-
-
-                            <iframe height="400" src="https://www.youtube.com/embed/AxAKLIhl6rU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                        </div>
+                    <div class="col-md-6 col-sm-6">
 
 
+                        <iframe height="400" src="https://www.youtube.com/embed/AxAKLIhl6rU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     </div>
+
+
+
                 </div>
+                <!--                </div>-->
             </section>
             <!--About Us End-->
 
@@ -279,11 +260,11 @@
                 </div>
                 <!--Heading Wrap End-->
 
-                <div id="filterable-item-holder-1" class="filterable_container main-gallery">
+                <div id="" class="row main-gallery text-center">
 
 
                     <!--Gallery List Wrap Start-->
-                    <div class="col-md-4 col-sm-6 filterable-item  icdl">
+                    <div class="col-md-4 col-sm-6 filterable-item  icdl w-100 text-center">
                         <div class="thumb">
                             <figure>
                                 <img src="images/gallery/03.png" alt="Image Here">
@@ -299,7 +280,7 @@
                     <!--Gallery List Wrap End-->
 
                     <!--Gallery List Wrap Start-->
-                    <div class="col-md-4 col-sm-6 filterable-item  icdl">
+                    <div class="col-md-4 col-sm-6 filterable-item  icdl  w-100">
                         <div class="thumb">
                             <figure>
                                 <img src="images/gallery/05.png" alt="Image Here">
@@ -318,7 +299,7 @@
                     <!--  ------------- ICDL END  ---------  -->
 
                     <!--Gallery List Wrap Start-->
-                    <div class="col-md-4 col-sm-6 filterable-item  graphic">
+                    <div class="col-md-4 col-sm-6 filterable-item  graphic w-100">
                         <div class="thumb">
                             <figure>
                                 <img src="images/gallery/g-00.jpg" alt="Image Here">
@@ -340,7 +321,7 @@
 
 
                     <!--Gallery List Wrap Start-->
-                    <div class="col-md-4 col-sm-6 filterable-item  python">
+                    <div class="col-md-4 col-sm-6 filterable-item  python w-100">
                         <div class="thumb">
                             <figure>
                                 <img src="images/gallery/p-05.jpg" alt="Image Here">
@@ -365,7 +346,7 @@
 
 
                     <!--Gallery List Wrap Start-->
-                    <div class="col-md-4 col-sm-6 filterable-item  scratch">
+                    <div class="col-md-4 col-sm-6 filterable-item  scratch w-100">
                         <div class="thumb">
                             <figure>
                                 <img src="images/gallery/s-00.jpg" alt="Image Here">
@@ -385,7 +366,7 @@
 
 
                     <!--Gallery List Wrap Start-->
-                    <div class="col-md-4 col-sm-6 filterable-item  scratch">
+                    <div class="col-md-4 col-sm-6 filterable-item  scratch w-100">
                         <div class="thumb">
                             <figure>
                                 <img src="images/gallery/s-03.png" alt="Image Here">
@@ -410,7 +391,7 @@
 
 
                     <!--Gallery List Wrap Start-->
-                    <div class="col-md-4 col-sm-6 filterable-item  web">
+                    <div class="col-md-4 col-sm-6 filterable-item  web w-100">
                         <div class="thumb">
                             <figure>
                                 <img src="images/gallery/w-00.png" alt="Image Here">
@@ -432,7 +413,7 @@
 
 
                     <!--Gallery List Wrap Start-->
-                    <div class="col-md-4 col-sm-6 filterable-item  robot">
+                    <div class="col-md-4 col-sm-6 filterable-item  robot w-100">
                         <div class="thumb">
                             <figure>
                                 <img src="images/gallery/r-00.png" alt="Image Here">
@@ -457,7 +438,7 @@
 
                     <!--Gallery List Wrap Start-->
 
-                    <div class="col-md-4 col-sm-6 filterable-item  mobile">
+                    <div class="col-md-4 col-sm-6 filterable-item  mobile w-100">
                         <div class="thumb">
                             <figure>
                                 <img src="images/gallery/m-00.png" alt="Image Here">
@@ -493,7 +474,11 @@
             <!--Our Gallery Wrap End-->
 
 
+
+
+
             <!--Testimonial Slider Wrap Start-->
+
             <section>
                 <div class="container">
                     <!--Heading 1 Start-->
@@ -502,123 +487,120 @@
                         <p>We are always happy with the opinion of our valued customers, which always motivates us to move forward
                         </p>
                     </div>
-                    <!--Heading 1 End-->
-                    <!--Testimonial Slider Start-->
-                    <div class="testimonial-slider">
-                        <!--Testimonial Start-->
-                        <div>
-                            <div class="testimonial">
 
-                                <div class="coures_instractor_thumb">
-                                    <figure>
-                                        <img src="images/testimonials/001.jpg" alt="">
-                                    </figure>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
 
+
+
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 div-l">
+
+                                        <div class="coures_instractor_thumb">
+                                            <figure>
+                                                <img src="images/testimonials/001.jpg" alt="">
+                                            </figure>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 div-r">
+                                        <div class="coures_instractor_thumb">
+                                            <figure>
+                                                <img src="images/testimonials/002.jpg" alt="">
+                                            </figure>
+
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
-                        </div>
-                        <!--Testimonial End-->
-                        <!--Testimonial Start-->
-                        <div>
-                            <div class="testimonial">
 
-                                <div class="coures_instractor_thumb">
-                                    <figure>
-                                        <img src="images/testimonials/002.jpg" alt="">
-                                    </figure>
 
+                            <div class="carousel-item ">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 div-l">
+
+                                        <div class="coures_instractor_thumb">
+                                            <figure>
+                                                <img src="images/testimonials/003.jpg" alt="">
+                                            </figure>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 div-r">
+                                        <div class="coures_instractor_thumb">
+                                            <figure>
+                                                <img src="images/testimonials/004.jpg" alt="">
+                                            </figure>
+
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
-                        </div>
-                        <!--Testimonial End-->
-                        <!--Testimonial Start-->
-                        <div>
-                            <div class="testimonial">
 
-                                <div class="coures_instractor_thumb">
-                                    <figure>
-                                        <img src="images/testimonials/003.jpg" alt="">
-                                    </figure>
 
+                            <div class="carousel-item ">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 div-l">
+
+                                        <div class="coures_instractor_thumb">
+                                            <figure>
+                                                <img src="images/testimonials/005.jpg" alt="">
+                                            </figure>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 div-r">
+                                        <div class="coures_instractor_thumb">
+                                            <figure>
+                                                <img src="images/testimonials/006.jpg" alt="">
+                                            </figure>
+
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
-                        </div>
-                        <!--Testimonial End-->
-                        <!--Testimonial Start-->
-                        <div>
-                            <div class="testimonial">
 
-                                <div class="coures_instractor_thumb">
-                                    <figure>
-                                        <img src="images/testimonials/004.jpg" alt="">
-                                    </figure>
 
+                            <div class="carousel-item ">
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12 div-l">
+
+                                        <div class="coures_instractor_thumb">
+                                            <figure>
+                                                <img src="images/testimonials/007.jpg" alt="">
+                                            </figure>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 div-r">
+                                        <div class="coures_instractor_thumb">
+                                            <figure>
+                                                <img src="images/testimonials/008.jpg" alt="">
+                                            </figure>
+
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
+
+
+
                         </div>
-                        <!--Testimonial End-->
-
-                        <!--Testimonial Start-->
-                        <div>
-                            <div class="testimonial">
-
-                                <div class="coures_instractor_thumb">
-                                    <figure>
-                                        <img src="images/testimonials/005.jpg" alt="">
-                                    </figure>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--Testimonial End-->
-
-                        <!--Testimonial Start-->
-                        <div>
-                            <div class="testimonial">
-
-                                <div class="coures_instractor_thumb">
-                                    <figure>
-                                        <img src="images/testimonials/006.jpg" alt="">
-                                    </figure>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--Testimonial End-->
-
-                        <!--Testimonial Start-->
-                        <div>
-                            <div class="testimonial">
-
-                                <div class="coures_instractor_thumb">
-                                    <figure>
-                                        <img src="images/testimonials/007.jpg" alt="">
-                                    </figure>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--Testimonial End-->
-
-
-                        <!--Testimonial Start-->
-                        <div>
-                            <div class="testimonial">
-
-                                <div class="coures_instractor_thumb">
-                                    <figure>
-                                        <img src="images/testimonials/008.jpg" alt="">
-                                    </figure>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!--Testimonial End-->
-
                     </div>
-                    <!--Testimonial Slider End-->
+
+
                 </div>
             </section>
+
             <!--Testimonial Slider Wrap End-->
         </div>
         <!--Iqoniq Content End-->
@@ -734,18 +716,32 @@
 
 
     <script src="js/script.js"></script>
-    <script src="js/jquery.js"></script>
+    <!--    <script src="js/jquery.js"></script>-->
+
+
+
 
     <!--Bootstrap core JavaScript-->
-    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+    <!--    <script src="js/bootstrap.min.js"></script>-->
+
+
+
     <!--SLICK SLIDER JavaScript-->
     <script src="js/slick.min.js"></script>
     <!--Dl Menu Script-->
     <script src="js/dl-menu/modernizr.custom.js"></script>
     <script src="js/dl-menu/jquery.dlmenu.js"></script>
     <!--Pretty Photo JavaScript-->
+
     <script src="js/jquery.prettyPhoto.js"></script>
     <!--Image Filterable JavaScript-->
+
+
     <script src="js/jquery-filterable.js"></script>
     <!--Number Count (Waypoints) JavaScript-->
     <script src="js/waypoints-min.js"></script>
